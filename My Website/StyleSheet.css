@@ -1,0 +1,262 @@
+/* title of index page */
+.title {
+    text-align: left;
+    vertical-align: middle;
+    position: absolute;
+    top: 20%;
+    left: 41%;
+    font-size: 200px;
+    color:antiquewhite;
+    text-shadow:-5px 0 black, 0 5px black, 1px 0 black, 0 -1px black; 
+    font-weight: 700;
+    font-family: Papyrus, fantasy;
+}
+
+/* accessory in index page */
+.longdash {
+    position: absolute;
+    padding : .1em 0 0 0;
+    width : 10em;
+    margin : 50px;
+    background-color: black;
+    text-align: right;
+    font-family: "Tahoma", "Geneva", sans-serif;
+    font-size: 10px;   
+    top: 70%;
+    right: 27%;
+}
+
+/* link in index page*/
+.explore {
+    position: absolute;
+    text-align: left;
+    font-family: 'Inconsolata', monospace; 
+    font-size: 20px;   
+    top: 74.8%;
+    left: 69.8%;
+}
+
+.explore:active {
+  color:silver;
+  background-color: aliceblue;
+}
+
+.explore a {
+  display:block;
+  text-decoration: none;
+  color:lightslategrey;  
+}
+
+/* main subject of each page */
+.name{
+    white-space:nowrap;
+    display:block;
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    margin-left: 18%;
+    margin-top: 12%;
+    color: dimgrey;
+}
+
+/*main text for intro page */
+#bio{
+    position: absolute;
+    text-align: left;
+    font-family: 'Inconsolata', monospace; 
+    font-size: 20px;   
+    top: 25%;
+    left: 60.8%; 
+    right:10%;
+    color: black;
+}
+
+/*main text for about page */
+
+#about{
+    position: absolute;
+    text-align: left;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    top: 9%;
+    left: 60.8%;
+    right:10%;
+}
+
+/*main text for content page */
+#contacts{
+    position: absolute;
+    text-align: left;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 30px;
+    top: 15%;
+    left: 60.8%;
+    right:10%;
+}
+
+/*style for footer*/
+footer{
+    position: absolute;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color:lightgrey;
+    font-size: 15px;
+    width: 100%;
+    height:5%;
+    bottom: 0%;
+}
+
+/*style footer link text*/
+footer a{
+    color:lightgrey
+}
+
+.background {
+    background-color: lightpink
+}
+
+/*Sticky header*/
+header{
+  height:60px;
+  width:100%;
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index: 1;
+}
+
+header img{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* image for all pages */
+.image {
+    position: absolute;
+    width: 450px;
+    height: 600px;
+    top: 52%;
+    right: 45%;
+    transform: translate(0, -50%);
+    z-index: -2;
+    transition: transform .5s ease-out;
+}
+
+/* logo */
+#logo {
+    float: left;
+    top: 0px;
+    left:0px;
+    text-align: center;
+    width: 50px;
+}
+
+/* Styling navigation */
+nav {
+  margin-left: 76.8%;
+  margin-top:.1%;
+  width:100%
+}
+
+.navButton {
+  margin:3px;
+  display: inline-block;
+  transition: background-color .3s ease;
+}
+
+.navButton:hover {
+transform: scale(1.2);
+}
+
+.navButton:active {
+  color:silver;
+  background-color: white;
+}
+
+.navButton a {
+  display:block;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  font-family: 'Courier', sans-serif;
+  font-weight: 500;
+  padding:10px;
+  
+}
+
+.navButton2 {
+  margin:3px;
+  border: 2px solid black;
+  display: inline-block;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: lightgray
+    
+}
+
+.navButton2:hover {
+transform: scale(1.2);
+}
+
+
+.navButton2:active { 
+  background-color: white;
+}
+
+.navButton2 a {
+  display:block;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  font-family: 'Courier', sans-serif;
+  font-weight: 400;
+  padding:10px;
+  
+}
+
+
+/*social media icons */
+
+.sm {
+    position: absolute;
+    width:30px;
+    height:30px;
+    text-align: left;
+    top: 30%;
+    left: 60.8%; 
+}
+
+.sm2 {
+    position: absolute;
+    width:30px;
+    height:30px;
+    text-align: left;  
+    top: 40%;
+    left: 60.8%; 
+    
+}
+
+.sm3 {
+    position: absolute;
+    width:30px;
+    height:30px;
+    text-align: left;
+    top: 50%;
+    left: 60.8%; 
+    
+}
+
+.sm4 {
+    position: absolute;
+    width:30px;
+    height:30px;
+    text-align: left;
+    top: 60%;
+    left: 60.8%; 
+    
+}
+
+
+
+
